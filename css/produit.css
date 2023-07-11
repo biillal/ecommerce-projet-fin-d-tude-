@@ -1,0 +1,14 @@
+.parant{
+    width: 35%;
+    margin-left: 50px;
+    margin-top: 40px;
+    
+}
+.title{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.form-select{
+    width: 90%;
+}

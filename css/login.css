@@ -1,0 +1,112 @@
+*{
+    font-family:  sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    height: 550px;
+}
+nav {
+    background-color:transparent;
+    box-shadow: 3px 3px 3px  black;
+    width:100%;
+    height: 75px;
+    display: flex;
+    align-items: center; 
+    position: sticky;
+}
+.abshoping{
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 30px;
+    color: black; 
+}
+.ab{
+    font-size: 35px;
+    color:red ;
+}
+.body{
+    
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.body h1{
+    float: left;
+    margin-left: 19px;
+    font-size: 40px;
+    box-shadow: 3px 3px 3px white;
+    margin-bottom: 50px;
+}
+form .regestre{
+     width:100%;
+     overflow: hidden;
+     font-size: 20px;
+     padding: 8px 0;
+     margin: 8px 0;
+     border-bottom: 2px solid white;
+}
+.regestre i{
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+.regestre input{
+    border: none;
+    outline: none;
+    background: none;
+    color: black;
+    font-size: 18px;
+    width: 210px;
+    float: left;
+    margin: 0 10px;
+}
+.link{
+    margin-top: 20px;
+}
+.a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.body .seconnecter{
+    margin-top: 26px;
+    margin-left:30%;
+}
+.connect{
+    padding:   10px 15px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border: 2px solid white;
+    border-radius: 14px;
+    background-color: transparent;
+}
+.connect:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+@media(max-width:991px){
+    html{
+        font-size: 40%;
+    }
+}
+
+@media(max-width:450px){
+    html{
+        font-size: 40%;
+    }
+}
+@media(max-width:150px){
+    html{
+        font-size: 30%;
+    }
+}

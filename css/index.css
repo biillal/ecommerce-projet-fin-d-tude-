@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* nav */
+.parant{
+    position: fixed;
+    z-index: 900;
+    width: 100%;
+}
+nav {
+    height: 80px;
+    
+}
+.nav-link{
+    font-size: 19px;
+    color: black;
+}
+.d-flex{
+    margin-right: 150px;
+}
+.form-control{
+    width: 90%;
+}
+.modal{
+    width: 70%;
+}
+/* carousel */
+.carousel-inner{
+    height: 550px;
+}
+.carousel-item{
+    height: 550px;
+}
+.carousel-item img{
+    height: 600px;
+}
+/* card */
+.nav-product{
+    border: 2px solid black;
+    margin-top: 90px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.ab{
+    color: red;
+}
+
+.title-product{
+    background-color: black;
+    height: 70px;
+    padding-left: 10px;
+    color: white;
+}
+.title-product span{
+    font-size: 40px;
+}
+.productshop {
+    position: relative;
+    width:98% ;
+    padding-left: 15px;
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.product  {
+    position: relative;
+    width: 100%;
+    height: 370px;
+    box-shadow: 0 7px 25px rgba(0,0,0, 0.08);
+    border-radius: 20px;
+    
+    justify-content: left;
+    background: #fff;
+    scroll-behavior: smooth;
+    overflow: auto;
+    position: relative;
+
+}
+
+
+
+.num{
+    background-color: red;
+    color: white;
+    position:absolute;
+    margin-top:-50px;
+    margin-left:60px ;
+    padding: 1px 3px 1px 3px;
+}
+.product a{
+    overflow: hidden;
+    text-decoration: none;
+}
+.product .type{
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 40px;
+    color: #ff7200;
+
+}
+.product .marque{
+        font-size: 25px;
+        font-weight: bold;
+        margin-left: 30px;
+        margin-top: 10px;
+        color: #999;
+}
+    .product .prix{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left :30px ;
+    color: #999;
+    margin-top: 10px;
+}
+.voir{
+    text-align: center;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 80px;
+    margin-left: 100px;
+}
+.voir a{
+    font-size: 20px;
+    width: 80px;
+}
+.voir:hover{
+    background-color: black;
+    color: white;
+}
+.img img{
+    width: 140px;
+    height: 170px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.nav-cnct{
+    margin-right: 20px;
+}
+.dropdown_header img{
+    width: 40px;
+    height: 40px;
+    margin-right: 40px;
+    position: relative;
+    top: 4px;
+
+}
+
+.ull{
+    margin-top: 6px;
+    background-color: aqua;
+    padding: 3px 10px 10px 4px;
+    list-style: none;
+    display: none;
+}
+.ull a{
+    text-decoration: none;
+    color: black;
+}
+.dcn{
+    margin-top: 7px;
+}

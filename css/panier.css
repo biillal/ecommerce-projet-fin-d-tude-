@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(231, 230, 230);
+}
+nav {
+    height: 80px;
+    width: 100%;
+}
+.nav-link{
+    font-size: 19px;
+    color: black;
+}
+.d-flex{
+    margin-right: 150px;
+}
+.form-control{
+    width: 90%;
+}
+.modal{
+    width: 70%;
+}
+body{
+    background-color: white;
+}
+.panier{
+    display: flex;
+    justify-content: space-between;
+}
+.parant{
+    height: 260px;
+    width: 65%;
+    margin-left: 57px;
+    
+}
+.sub_parant{
+    display: flex;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 260px;
+    background-color: rgb(201, 201, 201);
+    margin-bottom: 10px;
+}
+.sub-title{
+    font-size: 30px;
+    margin-left: 60px;
+    
+}
+/*
+.parant img{
+    width: 160px;
+    height: 230px;
+    margin-left: 80px;
+    margin-top: 15px;
+}
+*/
+.panier1{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.panier .type{
+    font-size: 30px;
+}
+.panier .marque{
+    margin-top: 30px;
+    font-size: 30px;
+}
+.panier .prix{
+    margin-top: 30px;
+    font-size: 25px;
+    border-bottom: 1px solid red;
+    width: 120px;
+    color: red;
+}
+
+.sup-panier{
+    margin-top: -30px;
+    margin-left: 440px;
+    margin-right: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+    width: 120px;
+}
+
+.sup-panier a{
+    text-decoration: none;
+
+}
+.sup-panier:hover {
+    background-color: black;
+    color: white;
+} 
+.fact{
+    margin-right: 70px;
+    width:  70%;
+    padding: 20px;
+}
+.fact1{
+    margin-left: 60px;
+    border-radius: 10px;
+    margin-top: 25px;
+    width: 280px;
+    border: 1px solid black;
+    height: 200px;
+    padding: 20px;
+}
+.total{
+    margin-top: 18px;
+    font-size: 23px;
+}
+.acheter{
+    text-align: center;
+    margin-top: 60px;
+}
+.acheter button{
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.num{
+    background-color: red;
+    color: white;
+    position:absolute;
+    margin-top:-50px;
+    margin-left:60px ;
+    padding: 1px 3px 1px 3px;
+}
+img{
+    background-color: white;
+}
+.img img{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+}
+td {
+    font-size: 24px;
+    background-color: aqua;
+}
+.table{
+    margin-left: 50px;
+}
+.col-sm-6{
+    width: 360px;
+    padding-left: 60px;
+    margin-right: 60px;
+}
+.alert{
+    margin-top: 40px;
+}

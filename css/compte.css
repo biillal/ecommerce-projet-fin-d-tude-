@@ -1,0 +1,220 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background-color: white;
+}
+nav{
+    height: 80px;
+    
+}
+.parant{
+    margin-left: 260px;
+    margin-top: 30px;
+    width: 70%;
+}
+.title{
+    text-align: center;
+    font-size: 30px;
+    margin-top: -50px;
+}
+.sub-parant{
+    border:1px solid black ;
+    border-radius: 7px;
+    padding: 90px 90px;
+}
+.collapse .navbar-brand {
+    font-size: 30px;
+}
+.mb-3{
+    width: 70%;
+    margin-left: 100px;
+}
+.mb-3 input{
+    height: 60px;
+}
+.mb-1{
+    width: 50%;
+    
+}
+.btn1{
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.btn1 button{
+    width: 73%;
+    font-size: 20px;
+}
+ul .depose{
+    margin-left: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding:7px 17px ;
+}
+ul .depose a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+ul .nav-cnct{
+    margin-left:100px;
+    width: 190px;
+}
+.nav-item{
+    font-size: 21px;
+}
+.d-flex{
+    margin-right: 120px;
+}
+.nav-product{
+    border: 2px solid black;
+    margin-top: 90px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.ab{
+    color: red;
+}
+.title-product{
+    background-color: black;
+    height: 70px;
+    padding-left: 10px;
+    color: white;
+}
+.title-product span{
+    font-size: 40px;
+}
+
+
+
+
+
+
+.title{
+    font-weight: bold;
+}
+.sub-nav{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    padding: 20px;
+}
+.sub-nav .sub-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.ab{
+    color: red;
+}
+.sub-nav .deconnexion{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+
+
+}
+.div-parant{
+    display: flex;
+    justify-content: space-between;
+    border-top: 4px solid black;
+}
+.subb-btn{
+    margin-left: 10px;
+}
+.sub-img{
+    margin-top: -70px;
+}
+.sub-img img{
+    width: 520px;
+    height: 520px;
+}
+.subb-btn1{
+    margin-right: 10px;
+}
+.btn-n{
+    margin-right: 300px;
+    margin-top: -100px;
+    background-color: aqua;
+    
+}
+.btn1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -5px;
+    width: 260px;
+}
+.sub-nav .deconnexion a {
+    text-decoration: none;
+    font-size: 20px;
+}
+.A-V{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.A-V .vendeur{
+    width: 50%;
+    border-right: 4px solid black;
+    height: 480px;
+    padding-top: 50px;
+    
+}
+.sub-title span{
+    font-size: 25px;
+}
+.sub-title .np{
+    color: aqua;
+}
+
+
+.A-V  .title{
+    font-size: 35px;
+}
+.A-V .vendeur .annoncee{
+    margin-top: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 150px;
+    font-size: 22px;
+    background-color: black;
+    
+}
+.A-V .vendeur .annoncee:hover{
+    background-color: black;
+}
+.A-V .vendeur .annoncee a{
+    text-decoration: none;
+    color: white;
+}
+.A-V .vendeur .annoncee a:hover{
+    color: white;
+}
+.A-V .acheteur{
+    width: 50%;
+    height: 480px;
+    padding-top: 50px;
+    
+}
+.A-V .acheteur .annoncee{
+    margin-top: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 150px;
+    font-size: 22px;
+    background-color: black;
+}
+.A-V .acheteur .annoncee a{
+    text-decoration: none;
+    color: white;
+}
